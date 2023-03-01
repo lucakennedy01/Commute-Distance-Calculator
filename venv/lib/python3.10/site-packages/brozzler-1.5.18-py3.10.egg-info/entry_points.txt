@@ -1,0 +1,15 @@
+[console_scripts]
+brozzle-page = brozzler.cli:brozzle_page
+brozzler-dashboard = brozzler.dashboard:main
+brozzler-easy = brozzler.easy:main
+brozzler-ensure-tables = brozzler.cli:brozzler_ensure_tables
+brozzler-list-captures = brozzler.cli:brozzler_list_captures
+brozzler-list-jobs = brozzler.cli:brozzler_list_jobs
+brozzler-list-pages = brozzler.cli:brozzler_list_pages
+brozzler-list-sites = brozzler.cli:brozzler_list_sites
+brozzler-new-job = brozzler.cli:brozzler_new_job
+brozzler-new-site = brozzler.cli:brozzler_new_site
+brozzler-purge = brozzler.cli:brozzler_purge
+brozzler-stop-crawl = brozzler.cli:brozzler_stop_crawl
+brozzler-wayback = brozzler.pywb:main
+brozzler-worker = brozzler.cli:brozzler_worker
